@@ -23,3 +23,8 @@ html { box-sizing: border-box; }
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: grid;
+    grid-template-columns: 300px repeat(3, 1fr);
+    grid-template-rows: 200px 100px 150px;
+}
