@@ -17,3 +17,9 @@ CSS Selektory:
 ::before						uvnitř prvku, před obsahem
 ::after							uvnitř prvku, za obsahem
 */
+
+p::first-letter {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
